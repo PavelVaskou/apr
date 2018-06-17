@@ -8,8 +8,12 @@
 
 import Foundation
 
-class Logger {
-    static func logger() {
-        print("I am looger")
+@objc public class Logger: NSObject {
+    @objc public class func logger() {
+        print("I am loger")
+    }
+    
+    @objc public class func debuger() {
+        print("I am debug")
     }
 }

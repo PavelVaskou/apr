@@ -1,48 +1,42 @@
 Pod::Spec.new do |s|
 
-  s.platform     = :ios
-  s.ios.deployment_target = "10.0"
-  s.name         = "Apr"
-  s.version      = "0.1.0"
-  s.summary      = "Put in this field some information"
+# 1
+s.platform = :ios
+s.ios.deployment_target = '10.0'
+s.name = "Apr"
+s.summary = "Apr lets a user select an ice cream flavor."
+s.requires_arc = true
 
-  s.description  = "Private apr | private private private | private"
+# 2
+s.version = "0.1.0"
 
-  s.homepage     = "http://aprofita.com"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+# 3
+s.license = { :type => "MIT", :file => "LICENSE" }
 
-
-
-
-  # s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
-
-  s.author             = { "Pavel Vaskou" => "3635019@gmail.com" }
-  # Or just: s.author    = "Pavel Vaskou"
-  # s.authors            = { "Pavel Vaskou" => "3635019@gmail.com" }
-  # s.social_media_url   = "http://twitter.com/Pavel Vaskou"
-
-  # s.platform     = :ios
-  # s.platform     = :ios, "10.0"
-
-  #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
+# 4 - Replace with your name and e-mail address
+s.author             = { "Pavel Vaskou" => "3635019@gmail.com" }
 
 
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
+# 5 - Replace this URL with your own Github page's URL (from the address bar)
+s.homepage = "[Your RWPickFlavor Homepage URL Goes Here]"
 
-  s.source       = { :git => "https://github.com/PavelVaskou/apr.git", :tag => "#{s.version}" }
+# For example,
+s.homepage     = "http://aprofita.com"
 
-  s.framework = "UIKit"
-  s.dependency 'Branch'
 
-  s.source_files  = "Apr/**/*.{swift}"
+# 6 - Replace this URL with your own Git URL from "Quick Setup"
+s.source = { :git => "[Your RWPickFlavor Git URL Goes Here]", :tag => "#{s.version}"}
 
+# For example,
+# s.source = { :git => "https://github.com/PavelVaskou/apr.git", :tag => "#{s.version}"}
+
+
+# 7
+s.dependency 'Branch'
+
+# 8
+s.source_files = "Apr/**/*.{swift}"
+
+# 9
+s.resources = "Apr/**/*.{png,jpeg,jpg,storyboard,xib}"
 end

@@ -16,4 +16,8 @@ import Foundation
     @objc public class func debuger() {
         print("I am debug")
     }
+    
+    @objc public class func fromPodRepo() {
+        print("I am use cocoa pod repo")
+    }
 }

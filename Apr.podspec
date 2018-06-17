@@ -25,7 +25,7 @@ s.homepage     = "http://aprofita.com"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "[Your RWPickFlavor Git URL Goes Here]", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/PavelVaskou/apr.git", :tag => "#{s.version}"}
 
 # For example,
 # s.source = { :git => "https://github.com/PavelVaskou/apr.git", :tag => "#{s.version}"}
@@ -37,6 +37,4 @@ s.dependency 'Branch'
 # 8
 s.source_files = "Apr/**/*.{swift}"
 
-# 9
-s.resources = "Apr/**/*.{png,jpeg,jpg,storyboard,xib}"
 end

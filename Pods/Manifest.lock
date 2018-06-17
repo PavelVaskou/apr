@@ -1,0 +1,18 @@
+PODS:
+  - Branch (0.24.2):
+    - Branch/Core (= 0.24.2)
+  - Branch/Core (0.24.2)
+
+DEPENDENCIES:
+  - Branch
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Branch
+
+SPEC CHECKSUMS:
+  Branch: 0d98d22745a9b68bcb4fa6dc1c6a92b64d4fdd7b
+
+PODFILE CHECKSUM: 8e84cb624fdfc3514f43c15bfae1e80d71182170
+
+COCOAPODS: 1.5.0

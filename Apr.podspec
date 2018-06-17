@@ -3,20 +3,19 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "10.0"
   s.name         = "Apr"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of Apr."
+  s.version      = "0.1.0"
+  s.summary      = "Put in this field some information"
 
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "Private apr | private private private | private"
 
-  s.homepage     = "http://EXAMPLE/Apr"
+  s.homepage     = "http://aprofita.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
 
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "LICENSE" }
+  # s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "Pavel Vaskou" => "3635019@gmail.com" }
   # Or just: s.author    = "Pavel Vaskou"
